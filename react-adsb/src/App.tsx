@@ -1,9 +1,12 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import BasicHome from './basics/BasicHome';
+
 
 function App() {
   return (
-    <span>Hello World</span>
+    <BasicHome></BasicHome>
   );
 }
 
